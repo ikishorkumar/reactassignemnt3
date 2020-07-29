@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Imagecomponent from './components/Imagecomponent'
+import Skills from './components/Skills'
+import Get from './components/Get'
 
-function App() {
+function App({name}) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+      <h2> Practice Task Of React</h2>
       </header>
+      <h2 className="textLighter">Hello It's <strong> {name} </strong></h2>
+      <br/>
+      <Imagecomponent src="https://cdn6.f-cdn.com/ppic/142992844/logo/29835323/xez7v/profile_logo_.png" />
+      <Skills />
+      <Get isOpen={true}/>
+
     </div>
   );
 }

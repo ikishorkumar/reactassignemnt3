@@ -1,13 +1,5 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5cd6fa8a-34ad-4fcb-a0c2-05b303739401/d2zlzdm-943c3c03-2510-4a6b-bc85-b948e726a772.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNWNkNmZhOGEtMzRhZC00ZmNiLWEwYzItMDViMzAzNzM5NDAxXC9kMnpsemRtLTk0M2MzYzAzLTI1MTAtNGE2Yi1iYzg1LWI5NDhlNzI2YTc3Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.tFbziNNFIMhlRrJzoeGTLG9shgHKbKOBtKBV_-XKCP8");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

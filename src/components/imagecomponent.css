@@ -1,0 +1,133 @@
+img{
+    background-color: black !important;
+    border-radius: 50% !important;
+    box-shadow: rgb(142, 140, 138) 1px 3px ;
+}
+img:hover {
+    margin:0 auto;
+    width: 200px;
+    transition: 1s ease-in-out
+}
+h6{
+    background-color: rgba(115, 112, 112, 0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    box-shadow: rgb(220, 219, 218) 1px 3px ;
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 15px;
+
+}
+
+li{
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(198, 10, 10) 2px 1px;
+    background-color: rgba(98, 8, 86,0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    padding: 18px ;
+    box-shadow: orangered 2px 8px;
+    z-index: 0 !important;
+    font-size: 18px;
+    width: 150px;
+    margin: auto !important;
+    margin-top: 15px !important;
+  
+  }
+  ul{
+    list-style: decimal-leading-zero;
+    font-size: medium;
+    color: rgb(255, 115, 1);
+    text-shadow: rgb(198, 10, 10) 2px 1px;
+    background-color: rgba(22, 21, 21, 0.9) ;
+    border-radius: 8px 52px ;
+    padding: 14px ;
+    padding-bottom: 24px ;
+    box-shadow: orangered 2px 8px;
+  }
+  .imagebox{
+    background-color: rgba(44, 40, 40, 0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    padding: 14px ;
+    padding-bottom: 24px ;
+    box-shadow: rgb(199, 17, 17) 2px 8px;
+
+  }
+  .arrowfunction{
+    background-color: rgba(23, 20, 20, 0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    padding: 14px ;
+    padding-bottom: 24px ;
+    margin-top: 20px !important;
+    color: white;
+    box-shadow: rgb(199, 17, 17) 2px 8px;
+    font-size: small;
+
+  }
+  .showtrue{
+    background-color: rgba(24, 21, 21, 0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    padding: 14px ;
+    padding-bottom: 24px ;
+    margin-top: 20px !important;
+    color: white;
+    box-shadow: rgb(199, 17, 17) 2px 8px;
+    font-size: small;
+
+  }
+  .hiddentrue{
+    display: none;
+
+  }
+
+
+  .mediacard{
+    text-align: center;
+    background-color: rgba(20, 19, 19, 0.9) ;
+    border-radius: 2px 22px 3px 22px ;
+    padding: 14px ;
+    padding-bottom: 24px ;
+    
+    margin-top: 20px !important;
+    color: white;
+    box-shadow: rgb(255, 65, 18) 2px 8px;
+    font-size: small;
+
+  }
+  #mediaImage{
+      border-radius: 5px !important;
+      width: 250px;
+  }
+
+  @media(min-width:576px){
+    img{
+      background-color: black !important;
+      border-radius: 50% !important;
+      box-shadow: rgb(142, 140, 138) 1px 3px ;
+      
+    }
+    .imagebox{
+      width: fit-content;
+      margin: auto;
+  
+  
+    }
+    .arrowfunction{
+      width: fit-content;
+      margin: auto;
+  
+  
+    }
+    .showtrue{
+      width: fit-content;
+      margin: auto;
+  
+    }
+    .mediacard{
+      text-align: center;
+      width: fit-content;
+      margin: auto;
+  
+    }
+   
+  }
