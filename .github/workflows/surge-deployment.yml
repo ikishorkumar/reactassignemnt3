@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: React Practice Assignment 3
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -36,4 +36,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Deployment of app to surge
-      run: surge ./build reactassignment2.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build reactassignment3.surge.sh --token ${{secrets.SURGE_TOKEN}}
